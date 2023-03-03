@@ -6,7 +6,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors());
-app.use("/api",Post);
+app.use("/api/",Post);
 
 //Error Handler middleware
 app.use(ErrorHandler);
